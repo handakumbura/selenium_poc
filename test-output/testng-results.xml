@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite one" duration-ms="1167" started-at="2018-09-19T07:45:47Z" finished-at="2018-09-19T07:45:48Z">
+    <groups>
+    </groups>
+    <test name="test one" duration-ms="1067" started-at="2018-09-19T07:45:47Z" finished-at="2018-09-19T07:45:48Z">
+      <class name="com.dumiduh.selenium4.selenium4.RunnerThree">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.dumiduh.selenium4.selenium4.RunnerThree@55f3ddb1]" name="setup" is-config="true" duration-ms="16" started-at="2018-09-19T13:15:47Z" finished-at="2018-09-19T13:15:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dumiduh.selenium4.selenium4.RunnerThree@55f3ddb1]" name="loginTest" duration-ms="7" started-at="2018-09-19T13:15:48Z" data-provider="loginData" finished-at="2018-09-19T13:15:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[col1r1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[c2r1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[c3r1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dumiduh.selenium4.selenium4.RunnerThree@55f3ddb1]" name="loginTest" duration-ms="2" started-at="2018-09-19T13:15:48Z" data-provider="loginData" finished-at="2018-09-19T13:15:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c1r2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[c2r2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[c3r2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.dumiduh.selenium4.selenium4.RunnerThree -->
+    </test> <!-- test one -->
+    <test name="test two" duration-ms="65" started-at="2018-09-19T07:45:48Z" finished-at="2018-09-19T07:45:48Z">
+      <class name="com.dumiduh.selenium4.selenium4.RunnerThree">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.dumiduh.selenium4.selenium4.RunnerThree@1e88b3c]" name="setup" is-config="true" duration-ms="1" started-at="2018-09-19T13:15:48Z" finished-at="2018-09-19T13:15:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dumiduh.selenium4.selenium4.RunnerThree@1e88b3c]" name="loginTest" duration-ms="1" started-at="2018-09-19T13:15:48Z" data-provider="loginData" finished-at="2018-09-19T13:15:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[col1r1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[c2r1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[c3r1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dumiduh.selenium4.selenium4.RunnerThree@1e88b3c]" name="loginTest" duration-ms="2" started-at="2018-09-19T13:15:48Z" data-provider="loginData" finished-at="2018-09-19T13:15:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c1r2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[c2r2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[c3r2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.dumiduh.selenium4.selenium4.RunnerThree -->
+    </test> <!-- test two -->
+  </suite> <!-- suite one -->
+</testng-results>

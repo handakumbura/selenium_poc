@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite one">
+<test name="test one">
+	<parameter name="browser" value="chrome"/>
+	<classes>
+		<class name="com.dumiduh.selenium4.selenium4.RunnerThree"/>
+	</classes>
+</test>
+<test name="test two">
+	<parameter name="browser" value="firefox"/>
+	<classes>
+		<class name="com.dumiduh.selenium4.selenium4.RunnerThree"/>
+	</classes>
+</test>
+</suite>

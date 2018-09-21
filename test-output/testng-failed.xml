@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite one]">
+  <test name="test two(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.dumiduh.selenium4.selenium4.RunnerTwo">
+        <methods>
+          <include name="loginTest" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.dumiduh.selenium4.selenium4.RunnerTwo -->
+    </classes>
+  </test> <!-- test two(failed) -->
+</suite> <!-- Failed suite [suite one] -->
